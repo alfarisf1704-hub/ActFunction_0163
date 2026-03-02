@@ -20,7 +20,8 @@ void output()
 {
     cout << "Hasilnya : " << LuasLingkaran(Phi, X, r) << endl;
 }
-float main()
+// Program Utama
+int main()
 {
     input();
     output();
