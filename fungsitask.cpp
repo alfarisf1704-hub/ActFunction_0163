@@ -12,3 +12,7 @@ void input()
     cout << "Masukan nilai r : ";
     cin >> r;
 }
+float LuasLingkaran(float a, float b, float c)
+{
+    return a * b * c * c;
+}
