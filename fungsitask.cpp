@@ -1,22 +1,20 @@
 #include <iostream>
 using namespace std;
 // deklarasi variabel global
-float Phi, r;
+float r;
 // Implementasi fungsi dan prosedur
 void input()
 {
-    cout << "Masukan nilai Phi : ";
-    cin >> Phi;
     cout << "Masukan nilai r : ";
     cin >> r;
 }
-float LuasLingkaran(float a, float b, )
+float LuasLingkaran(float b)
 {
-    return a * b * b;
+    return 3.14159 * b * b;
 }
 void output()
 {
-    cout << "Hasilnya : " << LuasLingkaran(Phi, r) << endl;
+    cout << "Hasilnya : " << LuasLingkaran(r) << endl;
 }
 // Program Utama
 int main()
