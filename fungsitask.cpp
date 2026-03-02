@@ -18,4 +18,5 @@ float LuasLingkaran(float a, float b, float c)
 }
 void output()
 {
+    cout << "Hasilnya : " << LuasLingkaran(Phi, X, r) << endl;
 }
