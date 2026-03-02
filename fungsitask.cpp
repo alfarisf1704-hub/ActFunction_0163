@@ -16,3 +16,6 @@ float LuasLingkaran(float a, float b, float c)
 {
     return a * b * c * c;
 }
+void output()
+{
+}
